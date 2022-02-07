@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Lato:ital,wght@1,300&family=Manrope:wght@700&family=Open+Sans&family=Work+Sans&display=swap");
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px, 24px, 11px, 24px;
+  background-color: #5542F6;
+  width: 15.1rem;
+  height: 4.2rem;
+  text-transform: capitalize;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  color: #FBFAFC;
+}
+.btn:hover {
+  border: 1px solid #5542F6;
+}
+.btn span {
+  padding: 0 0.9rem;
+}
+
+.btn__primary {
+  padding: 2px 8px 4px;
+  border-radius: 4px;
+  background: rgba(85, 66, 246, 0.1);
+  color: #5542F6;
+  border: none;
+  cursor: pointer;
+  margin-right: 28rem;
+}
+
+.btn__warning {
+  color: #FFA043;
+  padding: 2px 8px 4px;
+  border-radius: 4px;
+  background-color: #FFA0431A;
+  border: none;
+  cursor: pointer;
+  margin-right: 27rem;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.members__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 4rem 0;
+}
+
+.members__item {
+  align-items: center;
+}
+
+.members__link {
+  text-decoration: none;
+  display: inline-block;
+  color: #2E2C34;
+}
+
+.server__menu {
+  display: flex;
+  padding-bottom: 1.2rem;
+}
+.server__menu .name {
+  padding-right: 19.2rem;
+}
+.server__menu .name .full__name {
+  padding-left: 2.6rem;
+}
+.server__menu .Address {
+  padding-right: 12rem;
+}
+.server__menu .Phone {
+  padding-right: 12rem;
+}
+.server__menu .Status {
+  padding-right: 12.7rem;
+}
+.server__menu .Language {
+  padding-right: 8.2rem;
+}
+
+.server__link {
+  color: #84818A;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.member__text {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.member__text:hover {
+  cursor: pointer;
+  color: #5542F6;
+  text-decoration: underline #5542F6;
+}
+
+.contact {
+  padding: 0.9rem 0.9rem 0 0rem;
+}
+
+.members__wrapper {
+  display: flex;
+}
+
+.table__item {
+  padding: 2.8rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-size: 1.4rem;
+  color: #2E2C34;
+  font-weight: 300;
+}
+
+h2 {
+  font-weight: 500;
+  color: #2E2C34;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.input__wrapper {
+  padding-right: 2.6rem;
+}
+
+.img__wrapper {
+  padding-right: 1.6rem;
+}
+
+.name__wrapper {
+  padding-right: 11.6rem;
+}
+
+.adress__wrapper {
+  padding-right: 7.6rem;
+}
+
+.phone__wrapper {
+  padding-right: 7.5rem;
+}
+
+.checkbox {
+  background: #84818A;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.6rem;
+  max-width: 119rem;
+}
+
+.container {
+  margin: 5rem 13rem 5rem 8rem;
+}
+
+li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
